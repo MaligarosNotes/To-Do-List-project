@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href='{{url_for("static", filename="styles.css")}}'>
+    <title>Maligaro's To Do List</title>
+</head>
+<body>
+    <div class="content">
+        <h1>Incomplete Tasks</h1>
+        <table> 
+            <tr>
+                <th>Task</th>
+                <th>Date-added</th>
+                <th>Done?</th>
+            </tr>
+            <!-- Example row, replace with dynamic content as needed -->
+            <tr>
+                <td>Finish project</td>
+                <td>2024-06-30</td>
+                <td>No</td>
+            </tr>
+            <tr>
+                <td>Study for exam</td>
+                <td>2024-07-05</td>
+                <td>No</td>
+            </tr>
+        </table>
+        <action>
+            <button type="button">Add Task</button>
+        </action>
+    </div>
+</body>
+</html>

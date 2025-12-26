@@ -1,7 +1,7 @@
-# PDF-project
+# To-Do-List-project
 
 
-uh yea basically this is for taking in sheet music pdfs, and outputing the words in it, ignoring music notation
+basically for makin that to do list thing i wanted
 
 
 # install virtual environment
